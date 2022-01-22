@@ -7,10 +7,11 @@ body {
   background-color:#F8EDEB ;
     color: #63474d;
 }
+
 /* title section */
 
 h1 {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 56px;
   text-align: center;
   padding: 50px ;
@@ -18,7 +19,7 @@ h1 {
 }
 .nav-item {
   font-size: 32px;
-  padding: 18px;
+  padding: 5px;
 }
 .nav-link{
     color: #a35159!important;
@@ -51,7 +52,7 @@ h1 {
   line-height: 2;
 }
 #price-div {
-  padding: 0px 10% 0px;
+  padding: 100px 10% 50px;
   text-align: center;
   background-color: #F8EDEB;
   font-size: 20px;
@@ -77,8 +78,16 @@ td {
 
 /* contact */
 
+#contact {
+  margin: 50px auto 50px;
+  max-width:80vw;
+  padding: 10px;
+  box-shadow: 0px 0px 5px 5px rgba(64,58,58,0.45) inset;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(64,58,58,0.45) inset;
+  -moz-box-shadow: 0px 0px 5px 5px rgba(64,58,58,0.45) inset;
+}
 .openings {
-  padding: 0 10% 50px;
+  margin-bottom: 50px;
   font-size: 20px;
   }
 .tel-nr {
@@ -93,11 +102,12 @@ footer {
   font-size:14px;
   background-color: #FEC5BB;
   margin: 70px 0 0 ;
-  padding: 50px 0 30px;
+  padding: 30px 0 30px;
 }
 
 .fa-envelope-open-text{
   color:#ab5557;
+  margin-left: 3px;
 }
 
 
