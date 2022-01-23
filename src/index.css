@@ -4,8 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 22px;
-  background-color:#F8EDEB ;
-    color: #63474d;
+  background-color:#E5E5E5 !important;
 }
 
 /* title section */
@@ -14,20 +13,36 @@ h1 {
   font-family: 'Playfair Display', sans-serif !important;
   font-size: 56px;
   text-align: center;
-  padding: 50px ;
+  padding: 50px 20px ;
+}
+.logo {
   color: #542a2e;
+}
+.logo:hover{
+  color: #542a2e;
+  text-decoration: none;
 }
 .nav-item {
   font-size: 32px;
-  padding: 5px;
+  margin:2px;
+}
+.nav-item:hover{
+  border-radius: 5%;
+  box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.93);
+-webkit-box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.93);
+-moz-box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.93);
 }
 .nav-link{
-    color: #a35159!important;
+    color: #2E3338 !important;
 }
+.navbar-toggler-icon{
+  color: #25292D;
+}
+
 /* carousel  */
 
 .carousel-section {
-  background-color: #FEC5BB;
+  background-color: #D8D8D8;
   text-align: center;
   margin-top: 50px;
 }
@@ -54,11 +69,11 @@ h1 {
 #price-div {
   padding: 100px 10% 50px;
   text-align: center;
-  background-color: #F8EDEB;
+  background-color: #F2F2F2;
   font-size: 20px;
 }
 .pink-row {
-  background-color: #FCD5CE;
+  background-color: #D5E5E5;
 }
 hr {
   margin: 100px auto 100px;
@@ -66,14 +81,14 @@ hr {
   width: 20%;
 }
 .pricing-title{
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 600;
 }
 td {
   padding: 0 15px;
 }
 .price-info{
-  color: #a35159;
+  color: #2E3338;
 }
 
 /* contact */
@@ -91,23 +106,29 @@ td {
   font-size: 20px;
   }
 .tel-nr {
-  color:#ab5557;
-  font-weight: 700;
+  color:#2E3338;
+  font-weight: 600;
   font-size: 24px;
+}
+.tel-nr:hover{
+  color:#2E3338;
 }
 
 /* footer */
 
 footer {
   font-size:14px;
-  background-color: #FEC5BB;
+  background-color: #B5B7BB;
   margin: 70px 0 0 ;
   padding: 30px 0 30px;
 }
 
 .fa-envelope-open-text{
-  color:#ab5557;
+  color:#2E3338;
   margin-left: 3px;
+}
+.fa-envelope-open-text:hover{
+  font-size:16px;
 }
 
 

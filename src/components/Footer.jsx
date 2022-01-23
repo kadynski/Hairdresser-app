@@ -5,7 +5,7 @@ const Footer =()=> {
         <footer className="text-center">
             @ 2021 Krzysztof Kadynski
             <a href="mailto:kadynski@wp.pl">
-            <i class="fas fa-envelope-open-text"></i></a>
+            <i className="fas fa-envelope-open-text"></i></a>
             </footer>
     )
 };
