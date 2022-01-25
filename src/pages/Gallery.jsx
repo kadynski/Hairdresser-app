@@ -3,13 +3,6 @@ import {BDiv, BImg} from "bootstrap-4-react";
 import axios from "axios";
 import apiKey from "../apiKey";
 
-// import { createClient } from 'pexels';
-
-// const client = createClient('563492ad6f917000010000016f015287971b430dbb6d5e1e16e9a77a');
-
-// const [photos, setPhoto] = useState(null);
-
-
 
 const Gallery =()=>{
 
