@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -23,18 +24,21 @@ h1 {
   text-decoration: none;
 }
 .nav-item {
-  font-size: 32px;
   margin:2px;
 }
+.nav-link{
+  color: #2E3338 !important;
+  font-size: 32px;
+}
+
 .nav-item:hover{
+  color: #2E3338 !important;
   border-radius: 5%;
   box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.93);
 -webkit-box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.93);
 -moz-box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.93);
 }
-.nav-link{
-    color: #2E3338 !important;
-}
+
 .navbar-toggler-icon{
   color: #25292D;
 }
@@ -72,12 +76,12 @@ h1 {
   background-color: #F2F2F2;
   font-size: 20px;
 }
-.pink-row {
+.blue-row {
   background-color: #D5E5E5;
 }
-hr {
-  margin: 100px auto 100px;
-  border-top: dotted 10px #FCD5CE;
+#hr-price {
+  margin: 50px auto 50px;
+  border-top: dotted 10px #D5E5E5;
   width: 20%;
 }
 .pricing-title{
@@ -119,7 +123,7 @@ td {
 footer {
   font-size:14px;
   background-color: #B5B7BB;
-  margin: 70px 0 0 ;
+  margin: 70px auto 0px ;
   padding: 30px 0 30px;
 }
 
@@ -130,5 +134,7 @@ footer {
 .fa-envelope-open-text:hover{
   font-size:16px;
 }
-
-
+/* gallery */
+h2{
+  text-align:center;
+}

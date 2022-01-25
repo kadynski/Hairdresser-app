@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Navbar, BDiv, Nav, Collapse} from "bootstrap-4-react";
+import  { NavLink } from "react-router-dom";
 
 
 const Tittle =()=> {
@@ -15,9 +16,9 @@ const Tittle =()=> {
                     <Navbar.Toggler target="#navbarSupportedContent" />
                     <Collapse navbar id="navbarSupportedContent" text="center">
                         <Navbar.Nav mx="auto">
-                            <Nav.ItemLink href="/Main/#price-div">Cennik</Nav.ItemLink>
-                            <Nav.ItemLink href="/Main/#contact">Kontakt</Nav.ItemLink>
-                            <Nav.ItemLink href="/Gallery">Galeria</Nav.ItemLink>
+                            <Nav.ItemLink href="/#price-div">Cennik</Nav.ItemLink>
+                            <Nav.ItemLink href="/#contact">Kontakt</Nav.ItemLink>
+                            <NavLink to="../pages/Gallery" className="nav-item nav-link">Galeria</NavLink>
                         </Navbar.Nav>
                     </Collapse>
                 </Navbar>

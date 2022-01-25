@@ -3,15 +3,17 @@ import React from "react";
 const Price =()=>{
     return (
         <div id="price-div">
+        <hr id="hr-price"/>
           <table className="price-table">
             <thead>
               <tr>
                 <td><span className="pricing-title"> Cennik</span></td>
-                <td className="text-right"><span className="pricing-title">z&#322;</span></td>
+                <td className="text-right">
+                  <span className="pricing-title">z&#322;</span></td>
               </tr>
             </thead>
             <tbody>
-              <tr className="pink-row">
+              <tr className="blue-row">
                 <td>Strzyzenie dzieci</td>
                 <td className="text-right">50</td>
               </tr>
@@ -19,7 +21,7 @@ const Price =()=>{
                 <td>Strzyzenie z myciem</td>
                 <td className="text-right">50</td>
               </tr>
-              <tr className="pink-row">
+              <tr className="blue-row">
                 <td>Strzyzenie z modelowaniem</td>
                 <td  className="text-right">55</td>
               </tr>
@@ -27,7 +29,7 @@ const Price =()=>{
                 <td>Modelowanie</td>
                 <td className="text-right">25</td>
               </tr>
-              <tr className="pink-row">
+              <tr className="blue-row">
                 <td>Czesanie koka </td>
                 <td className="text-right">70</td>
              </tr>
@@ -35,7 +37,7 @@ const Price =()=>{
                 <td>Farba"Londa"</td>
                 <td className="text-right">65</td>
               </tr>
-              <tr className="pink-row">
+              <tr className="blue-row">
                 <td>Farba "Ce-Ce"</td>
                 <td className="text-right">85</td>
               </tr>
@@ -43,7 +45,7 @@ const Price =()=>{
                 <td>Pasemka</td>
                 <td className="text-right">100</td>
               </tr>
-              <tr className="pink-row">
+              <tr className="blue-row">
                 <td>Baleyage</td>
                 <td className="text-right">130</td>
               </tr>
