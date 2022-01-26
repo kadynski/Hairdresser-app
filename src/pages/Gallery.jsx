@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { BDiv, BImg } from "bootstrap-4-react";
+import { BDiv, BImg, Row, Col } from "bootstrap-4-react";
 import axios from "axios";
 import apiKey from "../apiKey";
 
 const Gallery = () => {
-  const [photosList, setPhoto] = useState([""]);
+  const [photosList, setPhoto] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   const options = {
     method: "GET",
@@ -15,7 +17,9 @@ const Gallery = () => {
       authorization: apiKey,
     },
   };
+
   useEffect(() => {
+    setLoading(true);
     axios
       .request(options)
       .then(function (response) {
@@ -23,24 +27,41 @@ const Gallery = () => {
       })
       .catch(function (error) {
         console.error(error);
+        setError(error.message);
       });
+    setLoading(false);
   }, []);
+
+  if (loading) {
+    return <h2>Loading photos...</h2>;
+  }
+
+  if (error) {
+    return (
+      <BDiv text="center">
+        <h2>We couldn't fetch the images</h2>
+        <p>{error}</p>
+      </BDiv>
+    );
+  }
 
   return (
     <BDiv>
       <h2>galeria</h2>
-      <BDiv>
+      <Row>
         {photosList.map((photo) => {
           return (
+              <Col col="6">
             <BImg
-              src={photo.src.original}
+              src={photo.src.medium}
               key={photo.id}
               id={photo.id}
               alt={photo.alt}
             />
+            </Col>
           );
         })}
-      </BDiv>
+      </Row>
     </BDiv>
   );
 };
