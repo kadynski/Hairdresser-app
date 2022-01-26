@@ -14,7 +14,7 @@ const Tittle = () => {
       </BDiv>
       <BDiv>
         <Navbar light expand="lg">
-          <Button success>
+          <Button success Tittle="call button">
             Zadzwoń <i className="fas fa-phone"></i>
           </Button>
           <Navbar.Toggler target="#navbarSupportedContent" />

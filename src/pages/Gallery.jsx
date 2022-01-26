@@ -12,7 +12,7 @@ const Gallery = () => {
     method: "GET",
     url: "https://api.pexels.com/v1/search",
     mode: "cors",
-    params: { query: "hairdresser", per_page: "4", page: "1" },
+    params: { query: "hairdresser", per_page: "6", page: "1" },
     headers: {
       authorization: apiKey,
     },
@@ -47,12 +47,14 @@ const Gallery = () => {
 
   return (
     <BDiv>
-      <h2>galeria</h2>
-      <Row>
+      <BDiv text="center">
+        <h2>galeria</h2>
+      </BDiv>
+      <Row className="gall-div" text="center">
         {photosList.map((photo) => {
           return (
               <Col col="6">
-            <BImg
+            <BImg  className="img-gall"
               src={photo.src.medium}
               key={photo.id}
               id={photo.id}

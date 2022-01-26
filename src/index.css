@@ -126,9 +126,6 @@ footer {
   background-color: #B5B7BB;
   margin: 70px auto 0px;
   padding: 30px 0 30px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
  }
 
 .fa-envelope-open-text{
@@ -139,6 +136,13 @@ footer {
   font-size:16px;
 }
 /* gallery */
-h2{
-  text-align:center;
+.gall-div {
+  padding: 25px 10px;
+}
+.img-gall {
+  margin:25px 10px;
+}
+.img-gall:hover{
+  transform: scale(1.2) ;
+  transition-duration:1s;  
 }
