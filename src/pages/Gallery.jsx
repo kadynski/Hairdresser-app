@@ -55,6 +55,7 @@ const Gallery = () => {
           return (
               <Col col="6">
             <BImg  className="img-gall"
+            display="block" w="100"
               src={photo.src.medium}
               key={photo.id}
               id={photo.id}
