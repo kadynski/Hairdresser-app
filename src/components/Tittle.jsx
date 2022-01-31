@@ -1,13 +1,15 @@
 import React from "react";
 import { Button, Navbar, BDiv, Nav, Collapse } from "bootstrap-4-react";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Tittle = () => {
   return (
     <BDiv>
       <BDiv>
         <h1>
-          <a href="/" className="logo">
+          <a href="/" id="logo">
             Zakład Fryzjerski Bożena
           </a>
         </h1>
@@ -15,7 +17,7 @@ const Tittle = () => {
       <BDiv>
         <Navbar light expand="lg">
           <Button success Tittle="call button">
-            Zadzwoń <i className="fas fa-phone"></i>
+            Zadzwoń <FontAwesomeIcon icon={faPhone} />
           </Button>
           <Navbar.Toggler target="#navbarSupportedContent" />
           <Collapse navbar id="navbarSupportedContent" text="center">

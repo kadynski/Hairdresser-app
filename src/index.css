@@ -18,11 +18,11 @@ h1 {
   text-align: center;
   padding: 50px 20px ;
 }
-.logo {
-  color: #542a2e;
+#logo {
+  color: #2E3338;
 }
-.logo:hover{
-  color: #542a2e;
+#logo:hover{
+  color: #212529;
   text-decoration: none;
 }
 .nav-item {
@@ -130,12 +130,17 @@ footer {
   padding: 30px 0 30px;
  }
 
-.fa-envelope-open-text{
+.fa-envelope{
   color:#2E3338;
-  margin-left: 3px;
+  margin-left: 5px;
 }
-.fa-envelope-open-text:hover{
+.footerLink{
+  color:#2E3338;
+}
+.footerLink:hover{
+  color:#2E3338;
   font-size:16px;
+  text-decoration: none;
 }
 /* gallery */
 .gall-div {
