@@ -18,15 +18,15 @@ const Price = () => {
         <tbody>
           <tr className="blue-row">
             <td>Strzyzenie dzieci</td>
-            <td className="text-right">50</td>
+            <td className="text-right">30</td>
           </tr>
           <tr>
             <td>Strzyzenie z myciem</td>
-            <td className="text-right">50</td>
+            <td className="text-right">55</td>
           </tr>
           <tr className="blue-row">
             <td>Strzyzenie z modelowaniem</td>
-            <td className="text-right">55</td>
+            <td className="text-right">60</td>
           </tr>
           <tr>
             <td>Modelowanie</td>
@@ -46,11 +46,11 @@ const Price = () => {
           </tr>
           <tr>
             <td>Pasemka</td>
-            <td className="text-right">100</td>
+            <td className="text-right">110</td>
           </tr>
           <tr className="blue-row">
             <td>Baleyage</td>
-            <td className="text-right">130</td>
+            <td className="text-right">140</td>
           </tr>
           <tr>
             <td>Trwa&#322;a "Swedish Perm" </td>
