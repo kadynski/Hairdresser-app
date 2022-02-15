@@ -5,4 +5,4 @@ All Photos taken from 'www.pexels.com' API.
 'bootstrap-4-react' used for styling.
 <br><br>
 Deployed on:<br>
-<b>https://hairk.netlify.app</b>
+<b>https://hair-react.netlify.app</b>
