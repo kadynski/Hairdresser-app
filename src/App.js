@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Tittle from "./components/Tittle";
+import Title from "./components/Title";
 import Main from "./pages/Main";
 import Gallery from "./pages/Gallery";
 import Footer from "./components/Footer";
@@ -11,7 +11,7 @@ import { faAngleDoubleUp } from "@fortawesome/free-solid-svg-icons";
 const App = () => {
   return (
     <Router>
-      <Tittle />
+      <Title />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/pages/Gallery" element={<Gallery />} />

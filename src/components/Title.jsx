@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
-const Tittle = () => {
+const Title = () => {
   return (
     <BDiv>
       <BDiv>
@@ -16,7 +16,7 @@ const Tittle = () => {
       </BDiv>
       <BDiv>
         <Navbar light expand="lg">
-          <Button success tittle="call button">
+          <Button success title="call button">
             Zadzwoń <FontAwesomeIcon icon={faPhone} />
           </Button>
           <Navbar.Toggler target="#navbarSupportedContent" />
@@ -35,4 +35,4 @@ const Tittle = () => {
   );
 };
 
-export default Tittle;
+export default Title;

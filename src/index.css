@@ -120,7 +120,9 @@ td {
   color:#2E3338;
 }
 .mapDiv{
-  margin:5px 5px 5px auto;
+  margin:10px auto 10px auto;
+  width: 500px;
+  height: 300px;
 }
 .adressDiv {
   padding-top: 25px;
