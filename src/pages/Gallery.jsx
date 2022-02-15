@@ -33,13 +33,13 @@ const Gallery = () => {
   }, []);
 
   if (loading) {
-    return <h2>Loading photos...</h2>;
+    return <h2>Ładuję zdjęcia</h2>
   }
 
   if (error) {
     return (
       <BDiv text="center">
-        <h2>We couldn't fetch the images</h2>
+        <h2>Nie udało się pobrać zdjeć</h2>
         <p>{error}</p>
       </BDiv>
     );
@@ -53,14 +53,16 @@ const Gallery = () => {
       <Row className="gall-div" text="center">
         {photosList.map((photo) => {
           return (
-              <Col col="6">
-            <BImg  className="img-gall"
-            display="block" w="100"
-              src={photo.src.medium}
-              key={photo.id}
-              id={photo.id}
-              alt={photo.alt}
-            />
+            <Col col="6">
+              <BImg
+                className="img-gall"
+                display="block"
+                w="100"
+                src={photo.src.medium}
+                key={photo.id}
+                id={photo.id}
+                alt={photo.alt}
+              />
             </Col>
           );
         })}

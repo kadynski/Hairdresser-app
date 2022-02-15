@@ -120,6 +120,24 @@ td {
   color:#2E3338;
 }
 
+/* scroll up button */
+
+.scrollUp{
+  text-align: center;
+  padding: 3px;
+  width: 42px;
+  height: 42px;
+  border: #2E3338;
+  border-style: groove;
+  border-radius: 5px;
+  opacity: 70%;
+  background-color: #E9ECEF;
+  }
+.scrollIcon{
+font-size: 32px;
+color: #2E3338;
+}
+
 /* footer */
 
 footer {
