@@ -48,7 +48,7 @@ const Gallery = () => {
   return (
     <BDiv>
       <BDiv text="center">
-        <h2>galeria</h2>
+        <h2>Galeria</h2>
       </BDiv>
       <Row className="gall-div" text="center">
         {photosList.map((photo) => {
