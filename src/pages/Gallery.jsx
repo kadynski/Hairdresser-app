@@ -58,7 +58,7 @@ const Gallery = () => {
                 className="img-gall"
                 display="block"
                 w="100"
-                src={photo.src.medium}
+                src={photo.src.large}
                 key={photo.id}
                 id={photo.id}
                 alt={photo.alt}

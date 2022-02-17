@@ -9,6 +9,14 @@ body, html {
   font-size: 22px;
   background-color:#E5E5E5 !important;
 }
+@media screen and (min-width: 992px) {
+  #callBtn {
+    display: none;
+  }
+  .carousel-img {
+    max-width: 70vw !important;
+}
+}
 
 /* title section */
 
@@ -26,23 +34,29 @@ h1 {
   text-decoration: none;
 }
 .nav-item {
-  margin:2px;
+  margin:2px 2px 5px;
 }
 .nav-link{
   color: #2E3338 !important;
   font-size: 32px;
 }
-
-.nav-item:hover{
-  color: #2E3338 !important;
-  border-radius: 5%;
-  box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.93);
--webkit-box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.93);
--moz-box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.93);
+.nav-link:hover {
+  color: #52575c !important;
 }
+.nav-item:hover{
+  border-bottom: 5px groove whitesmoke;
+  margin-bottom: -5px;
+  }
 
 .navbar-toggler-icon{
   color: #25292D;
+}
+.call-link {
+  color:whitesmoke !important;
+  text-decoration: none;
+}
+.call-link:hover{
+  text-decoration: none;
 }
 
 /* carousel  */
@@ -51,21 +65,14 @@ h1 {
   background-color: #D8D8D8;
   text-align: center;
   margin-top: 50px;
-}
+  }
 .carousel-img {
   max-width: 90vw;
   margin: auto;
   box-shadow: 0 0 10px #000000;
 }
 
-@media (min-width: 997px) {
-  .carousel-img {
-      max-width: 70vw;
-  }
-}
-
 /* pricing section */
-
 
 .price-table {
     font-size: 22px;
@@ -100,9 +107,9 @@ td {
 /* contact */
 
 #contact {
-  margin: 50px auto 50px;
-  max-width:80vw;
-  padding: 10px;
+  margin: 50px auto;
+  max-width:90vw;
+  padding: 15px;
   box-shadow: 0px 0px 5px 5px rgba(64,58,58,0.45) inset;
   -webkit-box-shadow: 0px 0px 5px 5px rgba(64,58,58,0.45) inset;
   -moz-box-shadow: 0px 0px 5px 5px rgba(64,58,58,0.45) inset;
@@ -120,7 +127,7 @@ td {
   color:#2E3338;
 }
 .mapDiv{
-  margin:10px auto 10px auto;
+  margin: 15px  auto;
   width: 500px;
   height: 300px;
 }

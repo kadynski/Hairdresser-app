@@ -16,8 +16,10 @@ const Title = () => {
       </BDiv>
       <BDiv>
         <Navbar light expand="lg">
-          <Button success title="call button">
-            Zadzwoń <FontAwesomeIcon icon={faPhone} />
+          <Button success title="call me" id="callBtn">
+          <a href="tel:+48602104565" className="call-link">
+          Zadzwoń <FontAwesomeIcon icon={faPhone} />
+          </a>
           </Button>
           <Navbar.Toggler target="#navbarSupportedContent" />
           <Collapse navbar id="navbarSupportedContent" text="center">
@@ -31,7 +33,7 @@ const Title = () => {
           </Collapse>
         </Navbar>
       </BDiv>
-    </BDiv>
+      </BDiv>
   );
 };
 
