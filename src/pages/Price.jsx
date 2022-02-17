@@ -17,15 +17,15 @@ const Price = () => {
         </thead>
         <tbody>
           <tr className="blue-row">
-            <td>Strzyzenie dzieci</td>
+            <td>Strzy&#380;enie dzieci</td>
             <td className="text-right">30</td>
           </tr>
           <tr>
-            <td>Strzyzenie z myciem</td>
+            <td>Strzy&#380;enie z myciem</td>
             <td className="text-right">55</td>
           </tr>
           <tr className="blue-row">
-            <td>Strzyzenie z modelowaniem</td>
+            <td>Strzy&#380;enie z modelowaniem</td>
             <td className="text-right">60</td>
           </tr>
           <tr>
