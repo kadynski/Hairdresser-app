@@ -16,7 +16,7 @@ const Contact = () => {
           <br />
           Białostocka 25
           <br />
-          93-355 Łódź
+          <span className=" notranslate">93-355 Łódź</span>
           <br />
           <a href="tel:+48602104565" className="tel-nr notranslate">
             <FontAwesomeIcon icon={faPhone} />
