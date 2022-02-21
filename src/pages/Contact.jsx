@@ -18,7 +18,7 @@ const Contact = () => {
           <br />
           93-355 Łódź
           <br />
-          <a href="tel:+48602104565" className="tel-nr">
+          <a href="tel:+48602104565" className="tel-nr notranslate">
             <FontAwesomeIcon icon={faPhone} />
             +48602104565
           </a>
