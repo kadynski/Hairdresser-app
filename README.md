@@ -5,4 +5,4 @@ All Photos taken from 'www.pexels.com' API.
 'bootstrap-4-react' used for styling.
 <br><br>
 Deployed on:<br>
-<b>https:bozena.net.pl</b>
+<b>https://bozena.net.pl/</b>
